@@ -25,31 +25,37 @@ NOT gates.
 
 
 ## Procedure:
+/*
 1.Create a New Project:
 Open Quartus and create a new project by selecting &quot;File&quot; &gt; &quot;New Project
 Wizard.&quot;
 Follow the wizard&#39;s instructions to set up your project, including
 specifying the project name, location, and target device
 (FPGA).
+/*
 2.Create a New Design File:
 Once the project is created, right-click on the project name in the
 Project Navigator and select &quot;Add New File.&quot;
 
 Choose &quot;Verilog HDL File&quot; or &quot;VHDL File,&quot; depending on your
 chosen hardware description language.
+/*
 3.Write the Combinational Logic Code:
 Open the newly created Verilog or VHDL file and write the code for your
 combinational logic.
+/*
 4.Compile the Project:
 To compile the project, click on &quot;Processing&quot; &gt; &quot;Start Compilation&quot; in the
 menu.
 Quartus will analyze your code, synthesize it into a netlist, and
 perform optimizations based on your target FPGA device.
+/*
 5.Analyze and Fix Errors:
 If there are any errors or warnings during the compilation process,
 Quartus will display them in the Messages window.
 Review and fix any issues in your code if necessary.
 View the RTL diagram.
+/*
 6.Verification:
 Click on &quot;File&quot; &gt; &quot;New&quot; &gt; &quot;Verification/Debugging Files&quot; &gt; &quot;University Program
 VWF&quot;.
@@ -57,7 +63,7 @@ Once Waveform is created Right Click on the Input/Output Panel &gt; &quot;
 Insert Node or Bus&quot; &gt; Click on Node Finder &gt; Click On &quot;List&quot; &gt; Select All.
 Give the Input Combinations according to the Truth Table amd then simulate the
 Output Waveform.
-
+/*
 ## Program:
 /*
 Program to implement the given logic function and to verify its operations in quartus using Verilog programming.
