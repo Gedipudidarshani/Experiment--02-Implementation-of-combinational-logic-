@@ -1,8 +1,8 @@
-# Date:
+
 # Exp-02-Implementation-of-combinational-logic
 Implementation of combinational logic gates
- #Name:Gedipudi Darshani
- #Register Number:212223230062
+### Name:Gedipudi Darshani
+### Register Number:212223230062
 ## AIM:
 To implement the given logic function verify its operation in Quartus using Verilog programming.
  F1= A’B’C’D’+AC’D’+B’CD’+A’BCD+BC’D
